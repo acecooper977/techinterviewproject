@@ -143,7 +143,7 @@ This library will allow you to access LDAP servers databases.
 ## Developing Ruby code
 
 1. For this lab a script named ldapuseradd.rb was created and placed in /root/:
-```
+```ruby
 /usr/bin/ruby -w
 
 require 'rubygems'

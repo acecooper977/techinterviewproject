@@ -163,13 +163,14 @@ dn = "cn= TesteRuby,dc=techinterview,dc=local"
 ldap.add( :dn => dn, :attributes => attr )
 ```
 
-To check if the script is working it is necessary to use the ldapsearch command:
-
-`ldapsearch -x -b "dc=techinterview,dc=local"`
-
 To run the script use:
 
 `ruby ldapuseradd.rb`
+
+To check if the script is working, use the ldapsearch command:
+
+`ldapsearch -x -b "dc=techinterview,dc=local"`
+
 
 This script will add the “dn” entry to the ldap database with the selected attributes (cn, objectclass and sn), by changing these attributes it is possible to add other types of entries like machines, groups, organizational units and so on.
 

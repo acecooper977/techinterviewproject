@@ -63,7 +63,7 @@ pluginsync = true
 4. edit the /etc/puppetlabs/puppet/puppet.conf file as below (changing names according to your environment)
 * In this lab we’re using a AWS instance.
 
-```puppet
+```
 [main]
 certname = ip-172-31-4-204.sa-east-1.compute.internal
 server = zenon.local
@@ -102,7 +102,7 @@ pluginsync = true
 
 Use the code below:
 
-```
+```puppet
 node ‘ip-172-31-4-204.sa-east-1.compute.internal’
 
 class { ‘openldap::server’: }

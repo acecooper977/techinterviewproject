@@ -10,7 +10,7 @@
 
 `yum install -y https://yum.puppet.com/puppet6/puppet6-release-el-7.noarch.rpm`
 
-2.  Then you install puppet packages and set the PATH
+2. Then you install puppet packages and set the PATH
 
 `yum install -y puppet-agent puppetserver`
 
@@ -19,7 +19,7 @@
 `echo "export PATH=/opt/puppetlabs/bin:\$PATH" >> /etc/bashrc`
 
 
-3.Check Puppet version using the command below (we used Puppet 6.4.1 for this lab) 
+3. Check Puppet version using the command below (we used Puppet 6.4.1 for this lab) 
 
 `puppet –version`
 
@@ -48,6 +48,7 @@ pluginsync = true
 `yum install -y https://yum.puppet.com/puppet6/puppet6-release-el-7.noarch.rpm`
 
 2. Next, install the puppet agent package and set the PATH
+
 `yum -y install puppet-agent`
 
 `export PATH=/opt/puppetlabs/bin:$PATH`
@@ -62,7 +63,7 @@ pluginsync = true
 4. edit the /etc/puppetlabs/puppet/puppet.conf file as below (changing names according to your environment)
 * In this lab we’re using a AWS instance.
 
-```
+```puppet
 [main]
 certname = ip-172-31-4-204.sa-east-1.compute.internal
 server = zenon.local

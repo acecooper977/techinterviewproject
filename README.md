@@ -1,6 +1,6 @@
-#Installing openLDAP in a CentOS using puppet
-##Author: Fernando Palmeira
-###Any Questions? lfernandobpalmeira@gmail.com
+Installing openLDAP in a CentOS using puppet
+Author: Fernando Palmeira
+Any Questions? lfernandobpalmeira@gmail.com
 
 Configuring puppet environment
 

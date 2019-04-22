@@ -171,7 +171,7 @@ To run the script use:
 
 `ruby ldapuseradd.rb`
 
-This script will add the “dn” entry to the ldap database with the selected attributes (cn, objectclass and sn), by changing these attributes it is possible to add other types of entries like machines, groups, organization units and so on.
+This script will add the “dn” entry to the ldap database with the selected attributes (cn, objectclass and sn), by changing these attributes it is possible to add other types of entries like machines, groups, organizational units and so on.
 
 
 That`s it. Now you have a Puppet Server running and a puppet node with openLDAP installed and running able to add entries to the LDAP database using a Ruby script.
